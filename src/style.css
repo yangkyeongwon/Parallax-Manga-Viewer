@@ -1,0 +1,66 @@
+/* General Rayouts */
+html{
+    background: #fff;
+    font-family: "Verdana", "Lucida Grande", "ヒラギノ角ゴ Pro", "メイリオ";
+    color: #333;
+    height: 4000px;
+    }
+
+.spread div{
+    width: 480px;
+    height: 679px;
+    position: fixed;
+    box-shadow: 1px 1px 3px #333;
+}
+
+.info_bg{
+    background-color: rgba(48,48,48,0.5);;
+    padding: 10px;
+    border-radius: 10px;
+    position: fixed;
+    text-align: right;
+}
+
+#general{
+    right: 20px;
+    top: 20px;
+    z-index: 100;
+}
+
+#page_counter{
+    right: 20px;
+    bottom: 20px;
+}
+
+#page_counter_content, #general_content{
+    color: #fff;
+    text-shadow: 1px 1px 3px #333;
+}
+/* End General Rayouts */
+
+
+/* Page Contents */
+#page_1{
+    background: url("02.jpg");
+    background-size: contain;
+}
+#page_2{
+    background: url("03.jpg");
+    background-size: contain;
+}
+#page_3{
+    background: url("04.jpg");
+    background-size: contain;
+}
+#page_4{
+    background: url("05.jpg");
+    background-size: contain;
+}
+#page_5{
+    background: url("06.jpg");
+    background-size: contain;
+}
+#page_6{
+    background: url("07.jpg");
+    background-size: contain;
+}
